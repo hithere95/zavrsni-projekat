@@ -15,9 +15,7 @@ div, header, body, head, p, h1, h2, img {
   background-image: url(../probavanje/img/contest_image.jpg) ;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-
-  
+  background-position: left;
 } 
 
 .poglavlje{
