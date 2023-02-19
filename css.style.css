@@ -1,0 +1,607 @@
+
+div, header, body, head, p, h1, h2, img {
+  box-sizing: border-box;
+}
+#galeri_slika{
+  width: 100%;
+  height: 250px;
+  margin: 0 auto; 
+  background-image: url(../probavanje/img/contest_image.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 41%;}
+ body {
+   margin: 0 auto; 
+  background-image: url(../probavanje/img/contest_image.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  
+} 
+
+.poglavlje{
+background-color: white;
+}
+
+.header_img {
+  width: 100%;
+  height: 250px;
+  background-image: url(../probavanje/img/travel_blog.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+}
+
+.liste{
+  list-style: none;
+    display: flex;
+     margin: 20px;
+     float: right;
+     justify-content: space-between;
+
+         
+    }
+ a{
+  text-decoration: none;
+  color: orange;
+  margin: 10px;
+  
+ }
+ .logo{
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+ }
+ .slika{
+
+width: 100%;
+height: 500px;
+border-top: 5px solid orange;
+ }
+.what{
+  text-align: center;
+  color: orange;
+  font-size: 25px;
+}
+.if{
+  text-align: center;
+  font-size: 15px;
+}
+
+#prvasekcija {
+  display: inline-flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+}
+
+.grid-container{
+   width: 100%;
+}
+.amazing, .travel{
+ 
+  font-size: 15px;
+  text-align: center;
+} 
+
+.grid-item {
+  width: 25%;
+}
+
+.grid-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+#main{
+  background-color: white;
+  margin-bottom: 20px;
+  border-bottom: 2px solid orange;
+
+}
+.paragraf1{
+  text-align: left;
+
+  color: black;
+  justify-content: center;
+  display: flex;
+
+}
+
+
+.win{
+text-align: left;
+
+color: black;
+justify-content: center;
+display: flex;
+
+ 
+}
+.dugme{
+  height: 200px;
+  position: relative;
+ 
+}
+
+.button {
+  
+  padding: 10px;
+   background-color: rgba(0, 0, 0, 0);
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border: 1px solid grey;
+  box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.5);
+  cursor: pointer;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-125%, -208%);
+  transform: translate(-125%, -208%);
+
+}
+.topic{
+  text-align: center;
+  color: orange;
+  padding: 30px;}
+
+#belo{
+  background-color: white;
+}
+
+.upl{
+  text-align: center;
+  color: white;
+}
+.uplo{
+  text-align: center;
+  color: white;
+}
+footer{
+  text-align: center;
+  background-color: orange;
+  color: white;
+  padding: 5px;
+}
+
+.smart{
+  
+  color: white;
+  
+}
+.grid-kontejner {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+ 
+  
+}
+
+
+
+
+ .row {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 80px;
+}
+
+.column {
+  width: 33.33%;
+  height: 737px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.venice {
+  background-image: url("../probavanje/img/venice.jpg");
+  background-position: center;
+}
+
+.paris {
+  background-image: url("../probavanje/img/paris.jpg");
+  background-position: 70% 100%;
+}
+
+.rome {
+  background-image: url("../probavanje/img/rome.jpg");
+  background-position: center;
+}
+
+
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  grid-template-rows:repeat(5, 1fr);
+  grid-gap:10px;
+  margin-top: 500px;
+  background-color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+ 
+ 
+}
+
+.grid-item2 {
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.grid-item2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.words_venice{
+
+  text-align: center;
+  padding: 50px;
+  margin-top: 150px;
+  color: white;
+  font-size:21px
+  
+  
+}
+
+.words_paris{
+
+  text-align: center;
+  padding: 50px;
+  margin-top: 150px;
+  color: white;
+  font-size:21px
+  
+  
+}
+
+
+
+.words_rome{
+
+  text-align: center;
+  padding: 50px;
+  margin-top: 150px;
+  color: white;
+  font-size:21px
+  
+  
+}
+
+.read_button{
+  
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border: 2px solid white;
+  background-color: rgba(214, 191, 59, 0.2);
+  padding: 10px
+
+}
+
+
+
+.grid-container2_galery{
+
+
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  grid-template-rows:repeat(5, 1fr);
+  grid-gap:10px;
+  margin-top: 0%;
+  background-color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+
+.background-img{
+    background:url('../Dejana_Hajder_Zavrsni_projekat/img/upload_photo.png');
+
+    width:100%;
+    height:87px; 
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain;
+    background-color: white;
+    border: 10px solid white;
+
+ 
+   
+}
+
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 100%;
+  }
+  .liste {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+  }
+  .liste li {
+    margin: 10px 0;
+  }
+  .header_img {
+    height: 400px;
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .grid-item {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .prvaslika {
+    width: 60%;
+  }
+  .win {
+    margin-top: 50px;
+  }
+  .paragraf1 {
+    text-align: center;
+  }
+  .dugme {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .topic {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .column {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .words_venice, .words_paris, .words_rome {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  .read_button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+}
+
+
+@media only screen and (max-width: 768px){
+  
+.poglavlje {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+  background-color: #333;
+}
+
+.logo {
+  height: 40px;
+}
+
+.liste {
+  list-style: none;
+  margin: 0;
+  display: none;
+}
+
+.liste li {
+  margin: 10px;
+}
+
+.liste li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-toggle {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+  float: right;
+  padding: 5px;
+}
+
+.menu-toggle .bar {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 3px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.menu-toggle .bar:before,
+.menu-toggle .bar:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 3px;
+  position: absolute;
+  left: 0;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.menu-toggle .bar:before {
+  top: -10px;
+}
+
+.menu-toggle .bar:after {
+  bottom: -10px;
+}
+
+.menu-toggle.active .bar {
+  transform: rotate(45deg);
+}
+
+.menu-toggle.active .bar:before {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.menu-toggle.active .bar:after {
+  transform: translateY(-10px) rotate(45deg);
+}
+
+.liste.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 99;
+}
+
+.liste.active li {
+  margin: 5px 0;
+}
+
+
+.header_img {
+  height: 200px;
+  background-image: url('../probavanje/img/header_img_small.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.if {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.if,
+.paragraf1 {
+  text-align: center;
+}
+
+#prvasekcija {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.prvaslika {
+  width: 100%;
+}
+
+.travel {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.amazing {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.win {
+  font-size: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.paragraf1 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.button {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+#belo {
+  background-color:white;
+}
+}
+
+/* Galerija */
+@media only screen and (max-width: 576px) {
+  /* set width of the navigation logo to 60% */
+  .logo {
+    width: 60%;
+  }
+
+  /* remove the margin from the ul element */
+  .liste {
+    margin: 0;
+  }
+
+  /* adjust the font size and padding of the navigation links */
+  .liste li a {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  /* set the font size of the "UPLOAD PHOTO AND WIN THE PRIZE" heading to 24px */
+  .upl {
+    font-size: 24px;
+  }
+
+  /* adjust the font size and line height of the "Upload your photo from most interesting destination" paragraph */
+  .uplo {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* adjust the size of the gallery images */
+  .grid-item2 img {
+    max-width: 100%;
+  }
+
+  /* set the height of the background image to 200px */
+  .background-img {
+    height: 200px;
+  }
+}
+
