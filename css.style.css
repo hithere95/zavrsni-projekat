@@ -20,6 +20,7 @@ div, header, body, head, p, h1, h2, img {
 
 .poglavlje{
 background-color: white;
+  border-bottom: 1px solid orange;
 }
 
 .header_img {
